@@ -1,8 +1,10 @@
 package wasmedge
 
 /*
-#cgo linux LDFLAGS: -lwasmedge
-#cgo darwin LDFLAGS: -lwasmedge
+#cgo linux,amd64 LDFLAGS: -lwasmedge
+#cgo linux,arm64 LDFLAGS: -lwasmedge
+#cgo darwin,amd64 LDFLAGS: -lwasmedge
+#cgo darwin,arm64 LDFLAGS: -lwasmedge
 
 #include <wasmedge/wasmedge.h>
 */
